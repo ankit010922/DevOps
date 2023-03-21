@@ -114,6 +114,10 @@ apt install net-tools
 
 1. Add sonar user and grant ownership to /opt/sonarqube directory 
   ```sh 
+  
+cp -r sonarqube-8.9.2.46101 /opt
+ mv sonarqube-8.9.2.46101/ sonarqube
+
   useradd -d /opt/sonarqube sonar
   chown -R sonar:sonar
   ```
