@@ -128,3 +128,5 @@ cp -r sonarqube-8.9.2.46101 /opt
  3. user correct database credentials in the sonar.properties
  4. use instance which has atleast 2 GB of RAM
  
+ #kafka setting up
+https://www.conduktor.io/kafka/how-to-install-apache-kafka-on-linux/
